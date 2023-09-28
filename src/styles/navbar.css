@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_body{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.nav_contents{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav_contents a{
+    
+}

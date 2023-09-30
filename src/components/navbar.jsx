@@ -5,7 +5,9 @@ import "../styles/navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-       <div className="header">Portfolio</div>
+       <div className="header">Port
+       <span className="heading">folio</span>
+       </div>
       <nav className="nav_body">
      
 

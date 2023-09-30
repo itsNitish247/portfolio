@@ -12,10 +12,13 @@
     font-size: 20px;
 }
 
+.heading{
+    color: red;
+}
+
 .nav_body {
     display: flex;
     align-items: center; 
-    margin-left: 50px;
 }
 
 .nav_contents {
@@ -29,4 +32,28 @@
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+    position: relative;
+    transition: color 0.3s, text-decoration 0.3s;
+
+}
+
+.nav_contents a:hover{
+color: red;
+text-decoration:underline;   
+}
+
+.nav_contents a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: -2px;
+    left: 0;
+    transition: width 0.3s;
+
+}
+
+.nav_contents a:hover::after {
+    width: 100%;
 }

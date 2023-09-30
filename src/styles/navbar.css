@@ -39,11 +39,10 @@
 
 .nav_contents a:hover{
 color: red;
-text-decoration:underline;   
 }
 
 .nav_contents a::after{
-    content: "";
+    content: " ";
     position: absolute;
     width: 0;
     height: 2px;

@@ -1,6 +1,6 @@
 .main_body{
    width: 100vw;
-   height: 100vh;
+   height: 90vh;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -21,4 +21,18 @@
 
 .name{
    color: red;
+}
+
+/* icons */
+
+.social_icons{
+ display: flex ;
+ margin-top: 16px;
+ gap: 16px;
+
+}
+
+.icon{
+   color: aliceblue;
+   font-size: 24px;
 }

@@ -1,5 +1,13 @@
 .layout_body{
    background-color:#000000;
-  
 }
 
+.home_placement{
+   height: 100vh;
+   width: 100vw;
+}
+
+.aboutMe_placement{
+   height: 100vh;
+   width: 100vw;
+}

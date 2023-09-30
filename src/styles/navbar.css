@@ -1,19 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
+.navbar {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
 }
 
-.main_body{
-    background-color: aqua;
-    display: flex;
-    justify-content: flex-end;
-    }
+.header {
+    color: aliceblue;
+    font-size: 20px;
+}
 
-.nav_contents{
+.nav_body {
     display: flex;
+    align-items: center; 
+    margin-left: 50px;
+}
+
+.nav_contents {
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
-.nav_contents a{
-    
+.nav_contents a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
 }

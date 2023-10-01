@@ -25,7 +25,7 @@
     overflow: hidden;
 }
 
-/* aboutme container  */
+/* aboutme container */
 .aboutme_content{
     display: flex;
     flex-direction: column;
@@ -41,6 +41,7 @@
     font-size: 50px;
     color: aliceblue;
     margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
    
 }
 
@@ -52,11 +53,45 @@
 
 .heading{
     color: aliceblue;
-margin-top: 10px;
+     margin-top: 10px;
+     font-family: 'Poppins', sans-serif;
 }
 
 .para{
     color: whitesmoke;
     text-align: justify;
     margin-top: 10px;  
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    width: 50vw;
+    height: 20vh;
+}
+
+.hireMe,.cv{
+ 
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: red;
+    width: 180px;
+    height: 40px;   
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hireMe:hover,
+.cv:hover {
+    background-color: #ff5050;  
+    transform: scale(1.05);
 }

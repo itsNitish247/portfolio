@@ -5,6 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import {motion} from 'framer-motion'
 
 function Home() {
   const [title, setTitle] = useState("Web Developer");
@@ -21,8 +22,17 @@ function Home() {
     return () => clearInterval(intervalId);
   }, []);
 
+  const animationVariants={
+    hidden:{opacity: 0, y: 50 },
+    visible:{opacity: 1,y: 0,
+      transition:{duration :2.5}},
+  }
   return (
-    <div className="main_body">
+    <motion.div 
+    className="main_body"
+    initial="hidden"
+    animate="visible"
+    variants={animationVariants}>
       <h1 className="intro">
         Hi, I'm
         <span className="name"> Nitish Kumar</span>
@@ -47,7 +57,7 @@ function Home() {
         <TwitterIcon className="icon" />
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

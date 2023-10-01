@@ -5,15 +5,16 @@
     justify-content: space-between;
     align-items: center; 
     padding: 20px;
+    margin-right: 5%;
 }
 
-.header {
+.port{
     color: aliceblue;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
 }
 
-.heading{
+.folio{
     color: red;
 }
 

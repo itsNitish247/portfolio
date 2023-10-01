@@ -1,27 +1,62 @@
-.aboutme_body {
-    width: 100%;
-    max-width: 600px; 
-    margin: 0 auto; 
-    padding: 20px;
-    background-color: #000000;
-    border: 1px solid #ddd;
-    text-align: center; 
-    box-sizing: border-box;
+.aboutme_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    align-items: top; 
 }
 
-.header {
-    color: aliceblue;
+
+/* iamge container */
+.image_container{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+   
+  
+}   
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+    filter: grayscale(20%) sepia(10%);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* aboutme container  */
+.aboutme_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    width: 50vw;
+    height: 100vh;
+    margin-right: 4%;
+    }
+    
+
+.about{
     font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.para {
     color: aliceblue;
-    font-size: 18px;
-    margin-top: 20px; 
-    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+   
 }
 
-.name{
+
+.me{
     color: red;
+    margin-left: 10px;
+}
+
+.heading{
+    color: aliceblue;
+margin-top: 10px;
+}
+
+.para{
+    color: whitesmoke;
+    text-align: justify;
+    margin-top: 10px;  
 }

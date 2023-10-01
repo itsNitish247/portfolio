@@ -1,15 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
+import {motion} from 'framer-motion'
+
 
 function Navbar() {
+  const animationVariants={
+    hidden:{opacity: 0, y: 50 },
+    visible:{opacity: 1,y: 0,
+      transition:{duration :2.5}},
+    }
   return (
-    <div className="navbar">
-       <div className="header">Port
-       <span className="heading">folio</span>
+    <motion.div className="navbar"
+     initial="hidden"
+    animate="visible"
+    variants={animationVariants}>
+   
+       <div className="port">Port
+       <span className="folio">folio</span>
        </div>
       <nav className="nav_body">
-     
+
 
           <ul className="nav_contents">
           <li>
@@ -35,7 +46,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-    </div>
+    </motion.div>
   );
 }
 

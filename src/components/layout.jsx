@@ -5,6 +5,7 @@ import '../styles/layout.css'
 import AboutMe from '../pages/aboutMe'
 
 import Career from '../pages/career'
+import Skill from '../pages/skill'
 
 
 function Layout() {
@@ -14,6 +15,7 @@ function Layout() {
       <div className='home_placement'><Home /></div>
       <div className="aboutMe_placement"><AboutMe /></div>
       <div className="career_placement"><Career /></div>
+      <div className="skill_placement"><Skill /></div>
     </div>
   )
 } 

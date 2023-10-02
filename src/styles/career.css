@@ -36,12 +36,13 @@
 	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
 }
 
-/* Container Experience CSS Start  */
+/* Container Experience  CSS Start  */
 .container-experience, .container-education {
 	width: 70%;
 	height: auto;
 	margin: auto 0;
 	position: relative;
+  
 }
 
 .container-experience ul, .container-education ul {

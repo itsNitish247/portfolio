@@ -24,7 +24,7 @@ function Career() {
           <li>
             <h3 className="heading">BE Computer Science</h3>
             <p>Completed my  Bachelors Degree in Atria Institute of Technology</p>
-            <span className="date">2015-2017</span>
+            <span className="date">2017-2021</span>
             <span className="circle"></span>
           </li>
          

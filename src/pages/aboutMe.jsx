@@ -6,12 +6,18 @@ import resume from '../assets/resume.pdf'
 
 function AboutMe() {
 
-  const handleDownlaod =()=>{
+const handleDownlaod =()=>{
 const anchor=document.createElement('a');
 anchor.href=resume;
 anchor.download='resume.pdf';
 anchor.click();
   };
+
+  const handleHireMe = () =>{
+  const toEmail ='meganitish@gmail.com';
+  const composeURL=`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${toEmail}`;
+  window.location.href=composeURL;
+};
 
 
 
@@ -43,7 +49,7 @@ anchor.click();
           apply my skills and make a positive impact. Whether it's coding, learning new languages, or pursuing personal projects, I thrive on continuous growth and innovation.
         </p>
        <div className="buttons">
-        <button className='hireMe'>hire me</button>
+        <button className='hireMe' onClick={handleHireMe}>hire me</button>
         <button className='cv' onClick={handleDownlaod}>Download CV</button></div>
       </div>
     </motion.div>

@@ -4,10 +4,12 @@
 	box-sizing: border-box;
 	font-family: Poppins;
 }
+
 @font-face {
 	font-family: Poppins;
 	src: url(../assets//fonts/FontsFree-Net-Poppins-Medium.ttf);
 }
+
 .main {
 	width: 100%;
 	height: 100%;
@@ -34,18 +36,19 @@
 	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
 }
 
-/* Container Css Start  */
-.container {
+/* Container Experience CSS Start  */
+.container-experience, .container-education {
 	width: 70%;
 	height: auto;
 	margin: auto 0;
 	position: relative;
 }
-.container ul {
+
+.container-experience ul, .container-education ul {
 	list-style: none;
 }
 
-.container ul::after {
+.container-experience ul::after, .container-education ul::after {
 	content: " ";
 	position: absolute;
 	width: 2px;
@@ -55,7 +58,8 @@
 	transform: translateX(-50%);
 	background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
 }
-.container ul li {
+
+.container-experience ul li, .container-education ul li {
 	width: 50%;
 	height: auto;
 	padding: 15px 20px;
@@ -66,10 +70,12 @@
 	margin-bottom: 30px;
 	z-index: 99;
 }
-.container ul li:nth-child(4) {
+
+.container-experience ul li:nth-child(4), .container-education ul li:nth-child(4) {
 	margin-bottom: 0;
 }
-.container ul li .circle {
+
+.container-experience ul li .circle, .container-education ul li .circle {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -79,26 +85,30 @@
 	display: grid;
 	place-items: center;
 }
-.circle::after{
+
+.circle::after {
 	content: ' ';
 	width: 12px;
 	height: 12px;
 	background-color: #7f00ff;
 	border-radius: 50%;
 }
+
 ul li:nth-child(odd) .circle {
 	transform: translate(50%, -50%);
 	right: -30px;
 }
+
 ul li:nth-child(even) .circle {
 	transform: translate(-50%, -50%);
 	left: -30px;
 }
+
 ul li .date {
 	position: absolute;
 	width: 130px;
 	height: 33px;
-	background-image: linear-gradient(to right,#7f00ff,#e100ff);
+	background-image: linear-gradient(to right, #7f00ff, #e100ff);
 	border-radius: 15px;
 	top: -45px;
 	display: grid;
@@ -107,30 +117,36 @@ ul li .date {
 	font-size: 13px;
 	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
 }
-.container ul li:nth-child(odd) {
+
+.container-experience ul li:nth-child(odd), .container-education ul li:nth-child(odd) {
 	float: left;
 	clear: right;
 	text-align: right;
 	transform: translateX(-30px);
 }
+
 ul li:nth-child(odd) .date {
 	right: 20px;
 }
-.container ul li:nth-child(even) {
+
+.container-experience ul li:nth-child(even), .container-education ul li:nth-child(even) {
 	float: right;
 	clear: left;
 	transform: translateX(30px);
 }
+
 ul li .heading {
 	font-size: 17px;
 	color: rgb(91, 14, 216);
 }
+
 ul li p {
 	font-size: 13px;
 	color: #666;
 	line-height: 18px;
 	margin: 6px 0 4px 0;
 }
+
 ul li a {
 	font-size: 13px;
 	text-decoration: none;
@@ -138,51 +154,50 @@ ul li a {
 	transition: all 0.3s ease;
 }
 
-
 @media only screen and (min-width:798px) and (max-width: 1100px) {
-	.container{
+	.container-experience, .container-education {
 		width: 80%;
 	}
 }
 
 @media only screen and (max-width: 798px) {
-	.container{
+	.container-experience, .container-education {
 		width: 70%;
 		transform: translateX(20px);
 	}
-	.container ul::after{
+	.container-experience ul::after, .container-education ul::after {
 		left: -40px;
 	}
-	.container ul li {
+	.container-experience ul li, .container-education ul li {
 		width: 100%;
 		float: none;
 		clear: none;
 		margin-bottom: 80px;
 	}
-	.container ul li .circle{
+	.container-experience ul li .circle, .container-education ul li .circle {
 		left: -40px;
 		transform: translate(-50%, -50%);
 	}
-	.container ul li .date{
+	.container-experience ul li .date, .container-education ul li .date {
 		left: 20px;
 	}
-	.container ul li:nth-child(odd) {
+	.container-experience ul li:nth-child(odd), .container-education ul li:nth-child(odd) {
 		transform: translateX(0px);
 		text-align: left;
 	}
-	.container ul li:nth-child(even) {
+	.container-experience ul li:nth-child(even), .container-education ul li:nth-child(even) {
 		transform: translateX(0px);
 	}
 }
 
 @media only screen and (max-width: 550px) {
-	.container{
+	.container-experience, .container-education {
 		width: 80%;
 	}
-	.container ul::after{
+	.container-experience ul::after, .container-education ul::after {
 		left: -20px;
 	}
-	.container ul li .circle{
+	.container-experience ul li .circle, .container-education ul li .circle {
 		left: -20px;
 	}
 }

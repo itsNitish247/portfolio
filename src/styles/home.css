@@ -7,15 +7,17 @@
    align-items: center;
 }
 
+@font-face {
+	font-family: Poppins;
+	src: url(../assets//fonts/FontsFree-Net-Poppins-Medium.ttf);
+}
 .intro{
    color: aliceblue;
-   font-family: 'Poppins', sans-serif;
-
 }
 
 .profession{
    color: aliceblue;
-   font-family: 'Poppins', sans-serif;
+  
 }
 
 

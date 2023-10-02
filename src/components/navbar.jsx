@@ -29,10 +29,7 @@ function Navbar() {
           <li>
             <Link to="/About me">About Me</Link>
           </li>
-          <li>
-            <Link to="/Experience">Experience</Link>
-          </li>
-          <li>
+           <li>
             <Link to="/Careers">Careers</Link>
           </li>
           <li>

@@ -6,6 +6,10 @@
     align-items: top; 
 }
 
+@font-face {
+	font-family: Poppins;
+	src: url(../assets//fonts/FontsFree-Net-Poppins-Medium.ttf);
+}
 
 /* iamge container */
 .image_container{

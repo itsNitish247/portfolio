@@ -1,5 +1,6 @@
 import BANK from "../assets/BANK.png";
 import LMS from "../assets/LMS.png";
+import RANK from "../assets/RANK.png";
 
 const projects = [
   {
@@ -20,6 +21,27 @@ const projects = [
     github: "https://github.com/itsNitish247/logistics-management-system",
     image: LMS,
   },
+
+ {
+  title: "Leaderboard Management System",
+  description:
+    "Scalable backend platform for multiplayer games that provides game registration, player score ingestion, historical score tracking, configurable ranking strategies, and automatic leaderboard management through REST APIs.",
+  tech: [
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+    "Spring Data JPA",
+    "REST APIs",
+    "Swagger"
+  ],
+  metrics: [
+    "Top-N Rankings",
+    "Historical Scores",
+    "Configurable Strategies"
+  ],
+  github: "https://github.com/itsNitish247/leaderboard-management-system",
+  image: RANK,
+},
 ];
 
 const Projects = () => {

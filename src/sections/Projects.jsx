@@ -51,11 +51,11 @@ const Projects = () => {
       className="max-w-6xl mx-auto px-6 py-24"
     >
       <h2 className="text-4xl font-bold mb-4">
-        Featured Projects
+        Featured Backend Projects
       </h2>
 
       <p className="text-slate-400 mb-12 max-w-2xl">
-        A selection of backend and full-stack applications showcasing
+        A selection of backend  applications showcasing
         enterprise software development, REST API design, secure
         authentication, database management, and scalable system
         architecture.

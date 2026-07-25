@@ -1,8 +1,31 @@
 import BANK from "../assets/BANK.png";
 import LMS from "../assets/LMS.png";
 import RANK from "../assets/RANK.png";
+import URL_SHORTNER from "../assets/uRL-SHORT.png"
 
 const projects = [
+  {
+  title: "URL Shortener",
+  description:
+    "Production-ready URL shortening service built with Spring Boot featuring Redis caching, Kafka event-driven analytics, retry and dead-letter queue handling, click tracking, failed event replay, and comprehensive REST API documentation.",
+  tech: [
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+    "Redis",
+    "Apache Kafka",
+    "Spring Data JPA",
+    "REST APIs",
+    "Swagger"
+  ],
+  metrics: [
+    "Redis Cache",
+    "Kafka Analytics",
+    "DLT & Retry"
+  ],
+  github: "https://github.com/itsNitish247/url-shortener",
+  image: URL_SHORTNER,
+},
   {
     title: "Banking Management System",
     description:

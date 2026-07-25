@@ -1,7 +1,7 @@
 import BANK from "../assets/BANK.png";
 import LMS from "../assets/LMS.png";
 import RANK from "../assets/RANK.png";
-import URL_SHORTNER from "../assets/uRL-SHORT.png"
+import URL_SHORTNER from "../assets/URL-SHORT.png"
 
 const projects = [
   {
